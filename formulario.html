@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
   <title>Formulario</title>
 </head>
+
 <body>
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
@@ -27,14 +28,18 @@
     </select>
     <br />
     <input type="submit">
+
+    
   </form>
+<div>
+      <h2>Lista de invitados</h2>
+      <!-- se crea una ul para que las funciones como appendChild tengan correcto sentido semantico y se agrega un id al ul para que se pueda usar en el js en la funcion agregar invitado -->
+      <ul id="lista-de-invitados">
+      </ul>
+    </div>
 
-  <div>
-    <h2>Lista de invitados</h2>
 
-  </div>
-
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script> <!-- se quita un punto de la ruta -->
 </body>
 
 </html>
